@@ -5,6 +5,7 @@ function WizardHouse({ book }) {
       <h1>{book.attributes.title}</h1>
 
       <p>{book.attributes.summary}</p>
+      <a href={book.attributes.wiki}> {book.attributes.wiki}</a>
       <hr />
     </div>
   );
